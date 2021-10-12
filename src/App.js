@@ -26,10 +26,10 @@ export default class App extends Component {
     e.preventDefault();
     if (name !== "" && age !== "" && salary !== "" && hobby !== "") {
       console.log(this.state);
-      // axios.post('https://sheet.best/api/sheets/e0d2b977-4415-43c7-89c2-7a862a0628a7', this.state)
-      //   .then(response => {
-      //     console.log(response);
-      //   })
+      axios.post('https://sheet.best/api/sheets/e0d2b977-4415-43c7-89c2-7a862a0628a7', this.state)
+        .then(response => {
+          console.log(response);
+        })
       this.setState({
         name: "",
         age: "",
