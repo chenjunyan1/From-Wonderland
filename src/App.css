@@ -1,7 +1,10 @@
 .form{
-  width: 500px;
+  width: 100%;
 }
 
 .container{
   padding:20px
+}
+.ui.from{
+  font-size: 17px;
 }
